@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{974A79DE-B7A8-4FD5-8FAD-EA5A07622642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerWebApi", "CustomerWebApi\CustomerWebApi.csproj", "{17F6A5AE-5FE8-4F89-96A8-5C3D4D5BA179}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerWebApi", "CustomerWebApi\CustomerWebApi.csproj", "{17F6A5AE-5FE8-4F89-96A8-5C3D4D5BA179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.ApiGateway", "Demo.ApiGateway\Demo.ApiGateway.csproj", "{ACCB3D8E-9A40-4F1A-B14B-7622AF7CED3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{17F6A5AE-5FE8-4F89-96A8-5C3D4D5BA179}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F6A5AE-5FE8-4F89-96A8-5C3D4D5BA179}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F6A5AE-5FE8-4F89-96A8-5C3D4D5BA179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCB3D8E-9A40-4F1A-B14B-7622AF7CED3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCB3D8E-9A40-4F1A-B14B-7622AF7CED3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCB3D8E-9A40-4F1A-B14B-7622AF7CED3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCB3D8E-9A40-4F1A-B14B-7622AF7CED3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{17F6A5AE-5FE8-4F89-96A8-5C3D4D5BA179} = {974A79DE-B7A8-4FD5-8FAD-EA5A07622642}
+		{ACCB3D8E-9A40-4F1A-B14B-7622AF7CED3A} = {974A79DE-B7A8-4FD5-8FAD-EA5A07622642}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9783F238-F20D-4E16-AAA4-F04B5BB366BC}

@@ -1,0 +1,16 @@
+{
+  "Routes": [
+    {
+      "UpstreamHttpMethod": [ "PUT", "DELETE", "POST", "GET" ],
+      "UpstreamPathTemplate": "/Customer/{everything}",
+      "DownstreamPathTemplate": "/api/customer/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5093
+        }
+      ]
+    }
+  ]
+}
