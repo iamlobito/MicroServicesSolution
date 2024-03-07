@@ -6,6 +6,7 @@
 - API Gateway (using Ocelot)
 - Microservices
 - Caching
+- Health Checking
 
 
 ## Design Patterns
