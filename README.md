@@ -31,3 +31,6 @@ All the routes is defined in the ocelot.json.
 For now, as example, I'm using only two Web Api with different databases:
  - Customer API
  - Orders API
+
+
+![Untitled Diagram drawio](https://github.com/iamlobito/MicroServicesSolution/assets/162322058/6547abce-526e-4c16-b559-8ffb47573c5b)
